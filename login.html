@@ -1,0 +1,82 @@
+<!-- login.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login - HealLYF</title>
+  <link rel="stylesheet" href="heallyf.css">
+  <style>
+    .form-container {
+      max-width: 400px;
+      margin: 100px auto;
+      padding: 30px;
+      border-radius: 10px;
+      background: #cce5ff;
+      box-shadow: 0 8px 20px rgba(26, 115, 232, 0.3);
+    }
+
+    .form-container h2 {
+      text-align: center;
+      color: #1a73e8;
+    }
+
+    .form-container form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .form-container label {
+      margin-top: 10px;
+      margin-bottom: 5px;
+      font-weight: 600;
+      color: #1a73e8;
+    }
+
+    .form-container input {
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .form-container button {
+      background-color: #1a73e8;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    .form-container button:hover {
+      background-color: #0f5fc5;
+    }
+
+    .form-container p {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .form-container a {
+      color: #1a73e8;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Login</h2>
+    <form action="#" method="post">
+      <label for="email">Email or Phone Number</label>
+      <input type="text" id="email" name="email" placeholder="Enter email or phone" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter password" required>
+
+      <button type="submit">Login</button>
+    </form>
+    <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+  </div>
+</body>
+</html>
